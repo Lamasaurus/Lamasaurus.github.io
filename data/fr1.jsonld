@@ -1,0 +1,295 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dc": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dc11": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dbpedia-owl": "http://dbpedia.org/ontology/",
+    "dbpprop": "http://dbpedia.org/property/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "void": "http://rdfs.org/ns/void#"
+  },
+  "@graph": [
+    {
+      "@id": "http://0-astatine.llu.edu.catalog.llu.edu/docs/AH/AH-V18N1/index.djvu?djvuopts&page=25",
+      "dbpprop:date": "Summer 1998",
+      "dbpprop:first": "Raymond",
+      "dbpprop:format": "DjVu",
+      "dbpprop:isCitedBy": {
+        "@id": "dbpedia:Seventh-day_Adventist_Commentary_Reference_Series"
+      },
+      "dbpprop:journal": {
+        "@id": "dbpedia:Adventist_Heritage"
+      },
+      "dbpprop:last": "Cottrell",
+      "dbpprop:number": "1",
+      "dbpprop:pages": "26–34",
+      "dbpprop:publisher": "LLU",
+      "dbpprop:title": "The Story of the Bible Commentary",
+      "dbpprop:url": {
+        "@id": "http://0-astatine.llu.edu.catalog.llu.edu/docs/AH/AH-V18N1/index.djvu?djvuopts&page=25"
+      },
+      "dbpprop:volume": "18"
+    },
+    {
+      "@id": "http://0-cdl.library.cornell.edu.source.unco.edu/moa/browse.monographs/waro.html",
+      "dbpprop:accessdate": [
+        {
+          "@type": "xsd:date",
+          "@value": "2007-11-05"
+        },
+        {
+          "@type": "xsd:date",
+          "@value": "2007-11-09"
+        },
+        {
+          "@type": "xsd:date",
+          "@value": "2007-11-25"
+        },
+        {
+          "@type": "xsd:date",
+          "@value": "2007-11-30"
+        }
+      ],
+      "dbpprop:authorLink": "Albion P. Howe",
+      "dbpprop:authorlink": [
+        "Henry Jackson Hunt",
+        "Quincy Adams Gilmore"
+      ],
+      "dbpprop:first": [
+        "A.P.",
+        "Charles R.",
+        "Henry J.",
+        "John W.",
+        "Q.A.",
+        "Robert N."
+      ],
+      "dbpprop:isCitedBy": [
+        {
+          "@id": "dbpedia:Battery_Rodgers"
+        },
+        {
+          "@id": "dbpedia:Fort_Sumter"
+        },
+        {
+          "@id": "dbpedia:Rodman_gun"
+        },
+        {
+          "@id": "dbpedia:Siege_artillery_in_the_American_Civil_War"
+        }
+      ],
+      "dbpprop:issue": [
+        "2",
+        "II",
+        "Part I"
+      ],
+      "dbpprop:journal": "The War of the Rebellion: A Compilation of the Official Records of the Union and Confederate Armies, Series I.",
+      "dbpprop:last": [
+        "Gilmore",
+        "Howe",
+        "Hunt",
+        "Scott",
+        "Suter",
+        "Turner"
+      ],
+      "dbpprop:location": "Washington, D.C.",
+      "dbpprop:pages": [
+        "117–119",
+        "148–65",
+        "212–225",
+        "212–25",
+        "3–40",
+        "650",
+        "659–662",
+        "883–897"
+      ],
+      "dbpprop:publisher": "Government Printing Office",
+      "dbpprop:ref": "harv",
+      "dbpprop:title": [
+        {
+          "@type": "xsd:gMonthDay",
+          "@value": "--05-17"
+        },
+        {
+          "@type": "xsd:gMonthDay",
+          "@value": "--06-01"
+        },
+        {
+          "@type": "xsd:gMonthDay",
+          "@value": "--06-08"
+        },
+        {
+          "@type": "xsd:gMonthDay",
+          "@value": "--08-12"
+        },
+        {
+          "@type": "xsd:gMonthDay",
+          "@value": "--10-20"
+        },
+        "Report of Maj. Gen. Quincy A. Gilmore, U.S. Army, Commanding Department of the South with Congratulatory Orders.",
+        "Reports",
+        "Reports."
+      ],
+      "dbpprop:url": {
+        "@id": "http://0-cdl.library.cornell.edu.source.unco.edu/moa/browse.monographs/waro.html"
+      },
+      "dbpprop:volume": [
+        "VI",
+        "XLVI",
+        "XXVIII",
+        "XXXV",
+        "XXXVI"
+      ],
+      "dbpprop:year": [
+        "1882",
+        "1890",
+        "1891",
+        "1894"
+      ]
+    },
+    {
+      "@id": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019",
+      "dbpprop:accessdate": {
+        "@type": "xsd:date",
+        "@value": "2007-10-28"
+      },
+      "dbpprop:isCitedBy": {
+        "@id": "dbpedia:Dahlgren_gun"
+      },
+      "dbpprop:last": "War Department",
+      "dbpprop:place": "Washington, D.C.",
+      "dbpprop:publisher": "Government Printing Office",
+      "dbpprop:series": "I",
+      "dbpprop:title": "The War of the Rebellion: A Compilation of the Official Records of the Union and Confederate Armies",
+      "dbpprop:url": {
+        "@id": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019"
+      },
+      "dbpprop:volume": "XIII",
+      "dbpprop:year": "1885"
+    },
+    {
+      "@id": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11050034EF9BFD00&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
+      "dbpprop:date": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "dbpprop:first": "Janie",
+      "dbpprop:isCitedBy": {
+        "@id": "dbpedia:Oregon_Sustainability_Board"
+      },
+      "dbpprop:last": "Har",
+      "dbpprop:title": "Governor pushes for renewable energy",
+      "dbpprop:url": {
+        "@id": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11050034EF9BFD00&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0"
+      },
+      "dbpprop:work": "The Oregonian"
+    },
+    {
+      "@id": "http://0-docs.newsbank.com.catalog.multcolib.org:80/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=115FA395193815D0&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
+      "dbpprop:date": {
+        "@type": "xsd:date",
+        "@value": "2006-12-11"
+      },
+      "dbpprop:first": "James",
+      "dbpprop:isCitedBy": {
+        "@id": "dbpedia:Harbor_Drive"
+      },
+      "dbpprop:last": "Mayer",
+      "dbpprop:title": "Transit activist is still on the road not taken",
+      "dbpprop:url": {
+        "@id": "http://0-docs.newsbank.com.catalog.multcolib.org:80/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=115FA395193815D0&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0"
+      },
+      "dbpprop:work": "The Oregonian"
+    },
+    {
+      "@id": "http://0-proquest.umi.com.catalog.multcolib.org/pqdweb?did=115807761&sid=2&Fmt=10&clientId=11892&RQT=309&VName=HNP",
+      "dbpprop:date": {
+        "@type": "xsd:date",
+        "@value": "1990-03-25"
+      },
+      "dbpprop:first": "Neil",
+      "dbpprop:isCitedBy": {
+        "@id": "dbpedia:Neil_Goldschmidt"
+      },
+      "dbpprop:last": "Goldschmidt",
+      "dbpprop:title": "As Highways Crumble, Bush Stumbles",
+      "dbpprop:url": {
+        "@id": "http://0-proquest.umi.com.catalog.multcolib.org/pqdweb?did=115807761&sid=2&Fmt=10&clientId=11892&RQT=309&VName=HNP"
+      },
+      "dbpprop:work": "The New York Times"
+    },
+    {
+      "@id": "http://0-proquest.umi.com.catalog.multcolib.org/pqdweb?did=43819187&sid=6&Fmt=3&clientId=11892&RQT=309&VName=PQD",
+      "dbpprop:date": "Aug 11, 1999"
+    },
+    {
+      "@graph": [
+        {
+          "@id": "https://lamasaurus.github.io/#dataset",
+          "hydra:member": {
+            "@id": "https://lamasaurus.github.io/data#dataset"
+          }
+        },
+        {
+          "@id": "https://lamasaurus.github.io/data",
+          "void:subset": {
+            "@id": "https://lamasaurus.github.io/data/fr1.jsonld"
+          }
+        },
+        {
+          "@id": "https://lamasaurus.github.io/data#metadata",
+          "foaf:primaryTopic": {
+            "@id": "https://lamasaurus.github.io/data#dataset"
+          }
+        },
+        {
+          "@id": "https://lamasaurus.github.io/data#dataset",
+          "@type": [
+            "void:Dataset",
+            "hydra:Collection"
+          ],
+          "void:subset": [
+            {
+              "@id": "https://lamasaurus.github.io/data/fr1.jsonld"
+            },
+            {
+              "@id": "https://lamasaurus.github.io/data"
+            }
+          ]
+        },
+        {
+          "@id": "https://lamasaurus.github.io/data/fr1.jsonld",
+          "@type": "hydra:PartialCollectionView",
+          "dc:description": {
+            "@language": "en",
+            "@value": "Triple Pattern Fragment of the 'DBpedia 2015-10' dataset containing triples matching the pattern { ?s ?p ?o }."
+          },
+          "dc:source": {
+            "@id": "https://lamasaurus.github.io/data#dataset"
+          },
+          "dc:title": {
+            "@language": "en",
+            "@value": "Linked Data Fragment of DBpedia 2015-10"
+          },
+          "void:triples": 681114834,
+          "hydra:first": {
+            "@id": "https://lamasaurus.github.io/data/fr1.jsonld"
+          },
+          "hydra:itemsPerPage": 100,
+          "hydra:next": {
+            "@id": "https://lamasaurus.github.io/data/fr1.jsonld"
+          },
+          "hydra:totalItems": 681114834
+        }
+      ],
+      "@id": "https://lamasaurus.github.io/data#metadata"
+    }
+  ]
+}
