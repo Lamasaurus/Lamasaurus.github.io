@@ -1,0 +1,1 @@
+{"@context":{"hydra":"http://www.w3.org/ns/hydra/core#","tree":"https://w3id.org/tree#"},"@graph":[{"@id":"/delijn/stoplocations.jsonld","@type":"hydra:Collection","hydra:manages":"http://example.com/terms#Station","hydra:totalItems":35790,"hydra:view":{"@id":"/stoplocations/t0.jsonld#22227","@type":"tree:Node"}}]}
